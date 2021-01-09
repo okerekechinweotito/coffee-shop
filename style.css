@@ -16,8 +16,7 @@ a {
   text-align: center;
   padding: 40px;
   font-weight: 700;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.ibb.co/B6Y8LW6/b1.jpg");
+  background: /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url("https://i.ibb.co/B6Y8LW6/b1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,13 +27,13 @@ a {
   justify-content: center;
 }
 .wl {
-  font-size: 80px;
-  color: #b6b2df;
+  font-size: 120px;
+  color: #352f28;
   margin-top: 5em;
 }
 .fs {
   color: #f17d10;
-  font-size: 110px;
+  font-size: 150px;
 }
 footer {
   padding: 10px;
