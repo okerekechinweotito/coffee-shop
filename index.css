@@ -1,0 +1,25 @@
+body {
+  background-color: #040d36;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 20em;
+  background: url("https://i.ibb.co/B6Y8LW6/b1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 900;
+}
+
+.header--title {
+  font-size: 3em;
+  color: #1b223f;
+}
+.header--coloured-title {
+  color: #fa7407;
+  font-size: 1.5em;
+}
