@@ -1,6 +1,6 @@
 # Coffee Shop Demo Landing Page
 
-# 🌐 Live @ www.coffee.okereke.dev
+# 🌐 Live @ https://coffee.okereke.dev/
 
 ## Copyright (c) 2021 Okereke Chinweotito
 
