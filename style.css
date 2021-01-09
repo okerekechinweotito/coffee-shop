@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
+/*   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
 
-/* 
+
 @media screen and (min-width: 100px) {
   body {
     height: 100vh;
@@ -37,7 +37,7 @@
     transform: translateY(0px);
   }
 }
- */
+ 
 body {
   padding: 0px;
   margin: 0px;
@@ -61,16 +61,21 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .wl {
   font-size: 2em;
   color: #b6b2df;
+  margin-top: 5em;
 }
 .fs {
   color: #f17d10;
   font-size: 2em;
 }
-/* .post {
+.post {
   position: relative;
   margin: auto;
   width: 80vw;
@@ -85,7 +90,7 @@ a {
     max-height: 300px;
     cursor: pointer;
     transition: transform 0.2s;
-  }*/
+  }
 .post {
   position: relative;
   margin: auto;
@@ -156,10 +161,10 @@ footer {
   color: white;
   background: #f39b6d;
 }
+.content-container a {
+  color: #f39b6d;
+}
 @media screen and (max-width: 350px) {
-  .content-container a {
-    color: #f39b6d;
-  }
   .reverse {
     flex-direction: row-reverse;
   }
@@ -168,3 +173,4 @@ footer {
     box-shadow: 10px 10px 0px #f39b6d;
   }
 }
+  */ */
