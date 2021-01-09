@@ -1,5 +1,42 @@
-/*   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppins", sans-serif;
+  background-color: #1b2042;
+}
 
+a {
+  text-decoration: none;
+  color: #f17d10;
+}
+#header {
+  width: 100vw;
+  height: 20em;
+  text-align: center;
+  padding: 40px;
+  font-weight: 700;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.ibb.co/B6Y8LW6/b1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wl {
+  font-size: 100px;
+  color: #b6b2df;
+  margin-top: 5em;
+}
+.fs {
+  color: #f17d10;
+  font-size: 2em;
+}
+
+/*  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
 
 @media screen and (min-width: 100px) {
   body {
@@ -38,43 +75,6 @@
   }
 }
  
-body {
-  padding: 0px;
-  margin: 0px;
-  font-family: "poppins", sans-serif;
-  background-color: #1b2042;
-}
-
-a {
-  text-decoration: none;
-  color: #f17d10;
-}
-#header {
-  width: 100vw;
-  height: 20em;
-  text-align: center;
-  padding: 40px;
-  font-weight: 700;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.ibb.co/B6Y8LW6/b1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.wl {
-  font-size: 2em;
-  color: #b6b2df;
-  margin-top: 5em;
-}
-.fs {
-  color: #f17d10;
-  font-size: 2em;
-}
 .post {
   position: relative;
   margin: auto;
@@ -173,4 +173,4 @@ footer {
     box-shadow: 10px 10px 0px #f39b6d;
   }
 }
-  */ */
+   */
