@@ -1,120 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
 
-body {
-  padding: 0px;
-  margin: 0px;
-  font-family: "poppins", sans-serif;
-  background-color: #1b2042;
-}
-a {
-  text-decoration: none;
-  color: #f17d10;
-}
-
-#header {
-  text-align: center;
-  padding: 40px;
-  font-weight: 700;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.ibb.co/B6Y8LW6/b1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.wl {
-  font-size: 2em;
-  color: #b6b2df;
-}
-.fs {
-  color: #f17d10;
-  font-size: 2em;
-}
-.post {
-  position: relative;
-  margin: auto;
-  width: 80vw;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.img-container {
-  width: 40vw;
-}
-
-.img-container img {
-  width: 100%;
-  max-height: 300px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.img-container img:hover {
-  transform: translateY(-10px);
-  box-shadow: -10px 10px 0px #f39b6d;
-}
-
-.content-container {
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
-}
-
-.content-container p {
-  font-weight: 600;
-  line-height: 1.9em;
-  color: #e1e3f1;
-  text-align: left;
-  font-size: 1.5em;
-}
-.content-container a {
-  color: #f39b6d;
-}
-.reverse {
-  flex-direction: row-reverse;
-}
-
-.reverse > .img-container img:hover {
-  box-shadow: 10px 10px 0px #f39b6d;
-}
-
-.btn {
-  position: relative;
-  margin: auto;
-  width: 100%;
-  text-align: center;
-}
-.btn button {
-  outline: none;
-  background: transparent;
-  color: #f39b6d;
-  border: 2px solid #f39b6d;
-  padding: 12px 0px;
-  width: 10em;
-  height: 4em;
-  font-family: "poppins", sans-serif;
-  cursor: pointer;
-  transition: all 0, 5s;
-}
-
-.btn button:hover {
-  color: white;
-  background: #f39b6d;
-}
-
-footer {
-  padding: 10px;
-  text-align: center;
-  background: #070730;
-  color: white;
-  min-height: 2em;
-}
-
+/* 
 @media screen and (min-width: 100px) {
   body {
     height: 100vh;
@@ -149,5 +35,123 @@ footer {
   .reverse > .img-container img:hover {
     box-shadow: none;
     transform: translateY(0px);
+  }
+}
+ */
+
+@media screen and (min-width: 500px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins", sans-serif;
+    background-color: #1b2042;
+  }
+  a {
+    text-decoration: none;
+    color: #f17d10;
+  }
+
+  #header {
+    text-align: center;
+    padding: 40px;
+    font-weight: 700;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://i.ibb.co/B6Y8LW6/b1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .wl {
+    font-size: 2em;
+    color: #b6b2df;
+  }
+  .fs {
+    color: #f17d10;
+    font-size: 2em;
+  }
+  .post {
+    position: relative;
+    margin: auto;
+    width: 80vw;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img-container {
+    width: 40vw;
+  }
+
+  .img-container img {
+    width: 100%;
+    max-height: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .img-container img:hover {
+    transform: translateY(-10px);
+    box-shadow: -10px 10px 0px #f39b6d;
+  }
+
+  .content-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .content-container p {
+    font-weight: 600;
+    line-height: 1.9em;
+    color: #e1e3f1;
+    text-align: left;
+    font-size: 1.5em;
+  }
+  .content-container a {
+    color: #f39b6d;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .reverse > .img-container img:hover {
+    box-shadow: 10px 10px 0px #f39b6d;
+  }
+
+  .btn {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .btn button {
+    outline: none;
+    background: transparent;
+    color: #f39b6d;
+    border: 2px solid #f39b6d;
+    padding: 12px 0px;
+    width: 10em;
+    height: 4em;
+    font-family: "poppins", sans-serif;
+    cursor: pointer;
+    transition: all 0, 5s;
+  }
+
+  .btn button:hover {
+    color: white;
+    background: #f39b6d;
+  }
+
+  footer {
+    padding: 10px;
+    text-align: center;
+    background: #070730;
+    color: white;
+    min-height: 2em;
   }
 }
