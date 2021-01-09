@@ -22,14 +22,14 @@ a {
   background-repeat: no-repeat;
 }
 
-#logo h1 {
-  color: #f17d10;
-}
-#logo span {
+.wl {
+  font-size: 2em;
   color: #b6b2df;
-  font-size: 1em;
 }
-
+.fs {
+  color: #f17d10;
+  font-size: 2em;
+}
 .post {
   position: relative;
   margin: auto;
@@ -113,8 +113,17 @@ footer {
   color: white;
   min-height: 2em;
 }
-/* 
+
 @media screen and (max-width: 300px) {
+  body {
+    height: 100vh;
+  }
+  .wl {
+    font-size: 1em;
+  }
+  .fs {
+    font-size: 1em;
+  }
   .post {
     width: 90%;
     padding-top: 0px;
@@ -137,4 +146,3 @@ footer {
     transform: translateY(0px);
   }
 }
- */
