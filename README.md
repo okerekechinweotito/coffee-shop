@@ -1,6 +1,8 @@
-# This is my personal portfolio site
+# Demo Landing Page
 
-# 🌐 Live @ www.okereke.dev
+# A landing page for future events
+
+# 🌐 Live @ https://future.okereke.dev/
 
 ## Copyright (c) 2021 Okereke Chinweotito
 
