@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700");
 
 body {
+  min-height: 100vh;
   padding: 0px;
   margin: 0px;
   font-family: "poppins", sans-serif;
@@ -33,16 +34,15 @@ a {
 .post {
   position: relative;
   margin: auto;
-  width: 80%;
+  width: 80vw;
   padding-top: 30px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .img-container {
-  width: 40%;
+  width: 40vw;
 }
 
 .img-container img {
@@ -58,7 +58,7 @@ a {
 }
 
 .content-container {
-  width: 50%;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -95,7 +95,8 @@ a {
   color: #f39b6d;
   border: 2px solid #f39b6d;
   padding: 12px 0px;
-  width: 130px;
+  width: 10em;
+  height: 4em;
   font-family: "poppins", sans-serif;
   cursor: pointer;
   transition: all 0, 5s;
@@ -125,8 +126,13 @@ footer {
     font-size: 1em;
   }
   .post {
-    width: 90%;
+    width: 90vw;
     padding-top: 0px;
+  }
+  .post {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
   }
 
   .img-container,
@@ -134,10 +140,10 @@ footer {
     width: 100%;
   }
   .content-container h2 {
-    font-size: 20px;
+    font-size: 1em;
   }
   .content-container p {
-    font-size: 14px;
+    font-size: 1em;
   }
 
   .img-container img:hover,
