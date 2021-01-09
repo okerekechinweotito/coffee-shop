@@ -1,5 +1,8 @@
 body {
   background-color: #040d36;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -7,7 +10,7 @@ header {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 20em;
+  height: 100vh;
   background: url("https://i.ibb.co/B6Y8LW6/b1.jpg");
   background-position: center;
   background-size: cover;
@@ -16,10 +19,15 @@ header {
 }
 
 .header--title {
-  font-size: 3em;
-  color: #1b223f;
-}
-.header--coloured-title {
-  color: #fa7407;
-  font-size: 1.5em;
+  transform: rotate(20deg) !important;
+
+  font-size: 10em;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.ibb.co/B6Y8LW6/b1.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
 }
